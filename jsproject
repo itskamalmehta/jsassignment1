@@ -25,7 +25,6 @@ function mintNFT (name, habitat, height, bloomtime, lifespan) {
         lifespan: lifespan
     }
     NFTBox.push(NFT);
-    console.log("Minted: " + name);
 }
 
 // create a "loop" that will go through an "array" of NFT's
