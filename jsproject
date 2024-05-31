@@ -18,11 +18,11 @@ const NFTBox = [];
 
 function mintNFT (name, habitat, height, bloomtime, lifespan) {
     const NFT = {
-        "name": name,
-        "habitat": habitat,
-        "height": height,
-        "bloomtime": bloomtime,
-        "lifespan": lifespan
+        name: name,
+        habitat: habitat,
+        height: height,
+        bloomtime: bloomtime,
+        lifespan: lifespan
     }
     NFTBox.push(NFT);
     console.log("Minted: " + name);
